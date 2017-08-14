@@ -2,8 +2,16 @@
 
 *R*   
 
-####AUTHORS:
+#### AUTHORS:
+- Tom Logan
+- Andrew Nisbet
+- Tim Williams
 
+#### USAGE:
+Use of this code is free with the citation:
+> Logan, T. M., Williams, T. G., Nisbet, A. J., Liberman, K. D., Zuo, C. T., and Guikema, S. D. (under review). “Evaluating urban accessibility: Leveraging open-source data and analytics to overcome previous limitations.”
+
+#### README: 
 The Open Source Routing Machine (OSRM) is a tool that calculates optimal routes for a given geographical area and a given transport profile (car, bicycle, pedestrian, etc). How to use OSRM depends on the operating system you are using: Mac and Linux are supported by the OSRM team, while we have provided code for setting up OSRM on Windows.
 ## Mac and Linux
 Up-to-date instructions for installing OSRM on Mac and Linux are given on the OSRM project page:https://github.com/Project-OSRM/osrm-backend#quick-start .  Once running, the url of the OSRM server can be passed to the provided R code using the `osrm.url` variable.
