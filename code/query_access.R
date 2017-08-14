@@ -263,9 +263,6 @@ ProcessPolygon <- function(dest.shp,grid.size){
       dest.pts <- do.call("rbind", c(dest.pts,dest.cntr))
     }
     
-    
-    
-    
   } else {
     dest.pts <- dest.shp
   }
@@ -369,6 +366,7 @@ DoQuerying <- function(near.table,osrm.url,query.indx){
     near.table[,'query_group'] <- near.table[query.indx:.N,.(ceiling(query.indx:.N/(.N/num.splits)))] 
 
     # parallelise queries
+    # note that improved parallelization options are described in tomlogan.co.nz/blogs but not included here.
     cl <- makeCluster(kNoCores,outfile=outfile.progress)
     clusterExport(cl, c('near.table',"osrm.url","GetSingleTravelInfo","QueryOSRM"), envir=environment())
     clusterEvalQ(cl, c(library(httr),library(pbapply),library(data.table)))
