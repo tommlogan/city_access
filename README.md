@@ -1,3 +1,5 @@
+A newer and better version is available here: https://urutau.co.nz/how-to/osrm_how_to/
+
 # Query Accessibility
 
 ## AUTHORS:
