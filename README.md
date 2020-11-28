@@ -13,7 +13,7 @@ Use of this code is free with the citation:
 
 ## About this project
 Check out our blog:
-http://reckoningrisk.com/research/2017/urban-access/
+https://urutau.co.nz/research/evaluating-accessibility/
 
 ## OSRM: 
 The Open Source Routing Machine (OSRM) is a tool that calculates optimal routes for a given geographical area and a given transport profile (car, bicycle, pedestrian, etc). How to use OSRM depends on the operating system you are using: Mac and Linux are supported by the OSRM team, while we have provided code for setting up OSRM on Windows.
